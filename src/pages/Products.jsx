@@ -9,7 +9,7 @@ const Products = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await fetch('http://localhost:3001/products');
+        const res = await fetch('https://my-dataset-file.onrender.com/products');
         const data = await res.json();
         setProducts(data);
         setFilteredProducts(data);
