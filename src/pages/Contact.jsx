@@ -19,7 +19,7 @@ const Contact = () => {
             </p>
 
             <p>
-              <a href="https://wa.me/9630258473" target="_blank" rel="noopener noreferrer" className="btn btn-success w-100 mb-2">
+              <a href="https://wa.me/919630258473" target="_blank" rel="noopener noreferrer" className="btn btn-success w-100 mb-2">
                 💬 WhatsApp पर बात करें
               </a>
             </p>
