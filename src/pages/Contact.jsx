@@ -13,7 +13,7 @@ const Contact = () => {
             <p><strong>नाम:</strong> Gour Krishi Seva Kendra</p>
 
             <p>
-              <a href="tel:+919876543210" className="btn btn-success w-100 mb-2">
+              <a href="tel:+919630258473" className="btn btn-success w-100 mb-2">
                 📞 हमें कॉल करें
               </a>
             </p>
