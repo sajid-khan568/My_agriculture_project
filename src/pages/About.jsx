@@ -52,10 +52,9 @@ const About = () => {
         </div>
       </div>
 
-      <div className="text-center mt-5">
-        <button className="btn btn-success btn-lg">
-          📞 Contact Us Today
-        </button>
+      <div className="text-center">
+        <a href="tel:+919630258473" className="btn btn-primary btn-lg px-4 py-2 mt-3 shadow-sm">हमसे संपर्क करें</a>
+
       </div>
     </div>
   );
