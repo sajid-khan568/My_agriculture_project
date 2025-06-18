@@ -9,7 +9,7 @@ const Home = () => {
         <p className="lead text-muted">
           हमारे यहाँ हर प्रकार के कृषि बीज, खाद, और उपकरण उचित मूल्य पर उपलब्ध हैं।
         </p>
-        <a href="tel:+919876543210"className="btn btn-primary btn-lg px-4 py-2 mt-3 shadow-sm">हमसे संपर्क करें</a>
+        <a href="tel:+919630258473"className="btn btn-primary btn-lg px-4 py-2 mt-3 shadow-sm">हमसे संपर्क करें</a>
       </div>
 
       <div className="row g-4 mb-5">
