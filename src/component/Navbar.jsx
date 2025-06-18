@@ -5,16 +5,20 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-success">
       <div className="container-fluid">
-        {/* Logo / Brand Name - Responsive Text */}
         <Link
-          className="navbar-brand fw-bold text-wrap"
-          style={{ whiteSpace: "normal", maxWidth: "200px" }}
+          className="navbar-brand fw-bold"
           to="/"
+          style={{
+            whiteSpace: "nowrap",
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+            maxWidth: "100%",
+            fontSize: "1rem"
+          }}
         >
           🌾 Gour krashi seva kendra
         </Link>
 
-        {/* Hamburger Button for Mobile View */}
         <button
           className="navbar-toggler"
           type="button"
@@ -27,7 +31,6 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Nav Links */}
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
@@ -44,7 +47,6 @@ function Navbar() {
             </li>
           </ul>
 
-          {/* Dark Mode Toggle */}
           <DarkMode />
         </div>
       </div>
